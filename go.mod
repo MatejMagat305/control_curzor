@@ -1,6 +1,6 @@
 module control_curzor
 
-go 1.20
+go 1.19
 
 require (
 	github.com/go-vgo/robotgo v0.100.10

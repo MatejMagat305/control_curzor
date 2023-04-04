@@ -4,7 +4,6 @@ import (
 	"control_curzor/moveSignals"
 	"fmt"
 	"github.com/go-vgo/robotgo"
-	hook "github.com/robotn/gohook"
 )
 
 func run() {
@@ -12,9 +11,7 @@ func run() {
 	step := 10
 	for {
 		i := moveSignals.GetKey()
-		if i.Kind != hook.KeyDown {
-			continue
-		}
+		fmt.Println(i)
 		if !active {
 			if i.Rawcode == moveSignals.ACTIVATE() {
 				active = true
@@ -22,6 +19,7 @@ func run() {
 			continue
 		}
 		x, y := robotgo.GetMousePos()
+		fmt.Println(x, y)
 		switch i.Rawcode {
 		case moveSignals.UP():
 			robotgo.MoveSmooth(x, y-step)
