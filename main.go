@@ -1,7 +1,7 @@
 package main
 
 import (
-	"awesomeProject/moveSignals"
+	"control_curzor/moveSignals"
 	"github.com/go-vgo/robotgo"
 	"github.com/robotn/gohook"
 )
