@@ -1,0 +1,13 @@
+{
+ "UP": 38,
+ "DOWN": 40,
+ "LEFT": 37,
+ "RIGHT": 39,
+ "LCLICK": 46,
+ "RCLICK": 96,
+ "DEACTIVATE": 68,
+ "ACTIVATE": 65,
+ "QUIT": 81,
+ "PLUS": 107,
+ "MINUS": 189
+}
