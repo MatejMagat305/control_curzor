@@ -10,3 +10,4 @@ arrows to control moves mouse <br>
 "q" to quit <br>
 "d" to deactive, it is not moving mouse <br>
 "a" to activate again
+
